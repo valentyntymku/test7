@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.academy.ParametrizedValidateTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2014-10-02T13:39:59" hostname="hashnote" time="0.064">
+  <properties/>
+  <testcase name="ValidateTest[0]" classname="com.academy.ParametrizedValidateTest" time="0.003"/>
+  <testcase name="ValidateTest[1]" classname="com.academy.ParametrizedValidateTest" time="0.057"/>
+  <testcase name="ValidateTest[2]" classname="com.academy.ParametrizedValidateTest" time="0.0"/>
+  <testcase name="ValidateTest[3]" classname="com.academy.ParametrizedValidateTest" time="0.001"/>
+  <testcase name="ValidateTest[4]" classname="com.academy.ParametrizedValidateTest" time="0.0"/>
+  <system-out><![CDATA[Name is invalid!
+Name is invalid!
+Name is invalid!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

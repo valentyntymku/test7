@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+	<Appenders>
+		<JDBC name="databaseAppender" tableName="logs">
+			<ConnectionFactory class="com.academy.ConnectionFactory" method="getConnection" />
+			<Column name="DATED" isEventTimestamp="true" />
+			<Column name="LEVEL" pattern="%level" />
+			<Column name="LOGGER" pattern="%logger" />
+			<Column name="MESSAGE" pattern="%message" />
+		</JDBC>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="databaseAppender" />
+		</Root>
+	</Loggers>
+</Configuration>

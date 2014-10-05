@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.academy.ValidateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2014-10-05T15:30:27" hostname="hashnote" time="0.002">
+  <properties/>
+  <testcase name="testIsValidEmail" classname="com.academy.ValidateTest" time="0.001"/>
+  <testcase name="testIsValidName" classname="com.academy.ValidateTest" time="0.001"/>
+  <system-out><![CDATA[Name is invalid!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
